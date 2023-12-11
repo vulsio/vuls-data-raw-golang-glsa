@@ -1,0 +1,31 @@
+{
+	"identifiers": [
+		"GHSA-hgv6-w7r3-w4qw",
+		"GMS-2023-1713"
+	],
+	"identifier": "GMS-2023-1713",
+	"package_slug": "go/github.com/kyverno/kyverno",
+	"title": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
+	"description": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') in github.com/kyverno/kyverno.",
+	"date": "2023-05-30",
+	"pubdate": "2023-05-30",
+	"affected_range": "<1.9.5",
+	"fixed_versions": [
+		"1.9.5"
+	],
+	"affected_versions": "All versions before 1.9.5",
+	"not_impacted": "All versions starting from 1.9.5",
+	"solution": "Upgrade to version 1.9.5 or above.",
+	"urls": [
+		"https://github.com/kyverno/kyverno/security/advisories/GHSA-hgv6-w7r3-w4qw",
+		"https://github.com/kyverno/kyverno/pull/7308",
+		"https://github.com/kyverno/kyverno/releases/tag/v1.9.5",
+		"https://github.com/advisories/GHSA-hgv6-w7r3-w4qw"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-78",
+		"CWE-937"
+	],
+	"uuid": "8d61f3c0-1772-479d-b112-3e18793e8b63"
+}
