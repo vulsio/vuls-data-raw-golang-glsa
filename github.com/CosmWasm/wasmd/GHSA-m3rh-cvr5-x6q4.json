@@ -6,7 +6,7 @@
 	"package_slug": "go/github.com/CosmWasm/wasmd",
 	"title": "CosmWasm wasmd has large address count in ValidateBasic",
 	"description": "**Component:** wasmd\n**Criticality:** Low ([ACMv1](https://github.com/interchainio/security/blob/main/resources/CLASSIFICATION_MATRIX.md): I:Moderate; L:Unlikely)\n**Patched versions:** wasmd 0.52.0\n\nIn multiple wasmd message types it was possible to add a large number of addresses which might lead to unexpected resource consumption in ValidateBasic.\n\nSee [CWA-2024-003](https://github.com/CosmWasm/advisories/blob/main/CWAs/CWA-2024-003.md) for more details.",
-	"date": "2024-08-08",
+	"date": "2024-11-18",
 	"pubdate": "2024-08-08",
 	"affected_range": "<0.52",
 	"fixed_versions": [
